@@ -1,16 +1,13 @@
-import {
-  ClerkProvider,
-  
-} from '@clerk/nextjs'
+import { ClerkProvider, RedirectToSignUp, SignedOut, SignedIn } from "@clerk/nextjs"
 
 const PlatformLayout = ({children}:{
     children:React.ReactNode
 })=>{
-    return(
+    return (
         <ClerkProvider>
-            {children}
+        {children}
         </ClerkProvider>
-    )
+      );
 }
 
 export default PlatformLayout;
