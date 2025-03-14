@@ -14,3 +14,4 @@ export default PlatformLayout;
 //kem ke front page par login ni jarur nathi
 //platform page par j login ni jarur che so
 //aaj layout protected hovu joye
+                       

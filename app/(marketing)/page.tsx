@@ -39,6 +39,7 @@ const MarketingPage = () => {
             Get Taskify for free
         </Link>
             </Button>
+         
         </div>
     );
 };
